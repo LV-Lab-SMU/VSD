@@ -184,7 +184,7 @@ This repository is built upon the following open-source projects:
 
 * [Transformers](https://github.com/huggingface/transformers)
 * [EAGLE](https://github.com/SafeAILab/EAGLE)
-* [VSD](https://arxiv.org/abs/2602.05774)
+* [MSD](https://github.com/Lyn-Lucy/MSD)
 * [lmms-eval](https://github.com/EvolvingLMMs-Lab/lmms-eval)
 
 We thank the open-source community for making their models, codebases, and evaluation tools publicly available.
