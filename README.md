@@ -1,16 +1,17 @@
+<div align="center">
+
 # Variational Speculative Decoding: Rethinking Draft Training from Token Likelihood to Sequence Acceptance
 
-<p align="center">
-  <a href="https://arxiv.org/abs/2602.05774">
-    <img src="https://img.shields.io/badge/📝-Paper-blue" height="25" alt="Paper">
-  </a>
-</p>
+[![arXiv](https://img.shields.io/badge/arXiv-2602.05774-b31b1b?style=flat&logo=arxiv)](https://arxiv.org/abs/2602.05774)
+[![Hugging Face Collection](https://img.shields.io/badge/Hugging%20Face-Collection-FFD21E?style=flat&logo=huggingface)](https://huggingface.co/collections/yqcca/vsd)
+
+</div>
 
 ## Overview
 
-> **TL;DR:** **Variational Speculative Decoding (VSD)** formulates draft-model training as variational inference over latent draft paths, thereby aligning the training objective with sequence-level acceptance during speculative decoding.
+> **TL;DR:** Variational Speculative Decoding (VSD) formulates draft-model training as variational inference over latent draft paths, aligning the training objective with sequence-level acceptance during speculative decoding.
 
-VSD is a sequence-level training framework that treats draft paths as latent proposals and maximizes the marginal probability that they are accepted by the target model. This formulation yields an evidence lower bound (ELBO) that encourages high-quality proposals while regularizing the draft distribution toward the target distribution.
+VSD treats draft paths as latent proposals and maximizes the marginal probability that they are accepted by the target model. This formulation yields an evidence lower bound (ELBO) that encourages high-quality proposals while regularizing the draft distribution toward the target distribution.
 
 ## Released Models
 
