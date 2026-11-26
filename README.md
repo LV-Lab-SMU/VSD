@@ -13,15 +13,6 @@
 
 VSD treats draft paths as latent proposals and maximizes the marginal probability that they are accepted by the target model. This formulation yields an evidence lower bound (ELBO) that encourages high-quality proposals while regularizing the draft distribution toward the target distribution.
 
-## Released Models
-
-We release pretrained VSD draft models for LLaVA-v1.5 at the following Hugging Face repositories:
-
-| Target Model   | VSD Draft Model                                                           |
-| -------------- | ------------------------------------------------------------------------- |
-| LLaVA-v1.5-7B  | [VSD_llava_v15_7b](https://huggingface.co/yqcca/VSD_llava_v15_7b)   |
-| LLaVA-v1.5-13B | [VSD_llava_v15_13b](https://huggingface.co/yqcca/VSD_llava_v15_13b) |
-
 ## Repository Structure
 
 The installation and training commands below assume that the following repositories are located under the same project directory:
